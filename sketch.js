@@ -121,7 +121,7 @@ function preload(){
   safeSoundFormats('mp3','wav','ogg');
   imgBackground = loadImage('assets/BACKGROUND.png');
   imgCover = loadImage('assets/COVER.png');
-  imgStartButton = loadImage('assets/START_BUTTON.png');
+  imgStartButton = loadImage('assets/START BUTTON.png');
   imgVictory = loadImage('assets/VICTORY.png');
   imgBabyCry = loadImage('assets/BABY_CRY.png');
   imgBabyNormal = loadImage('assets/BABY_NORMAL.png');
@@ -129,7 +129,7 @@ function preload(){
   imgOil = loadImage('assets/OIL.png');
   imgMaga = loadImage('assets/MAGA.png');
   imgHillary = loadImage('assets/HILLARY.png');
-  uiFont = loadFont('assets/BABYBLOC.ttf');
+  uiFont = loadFont('assets/BABYBLOC.otf');
   loseVideo = createVideo('assets/LOSE.mp4');
   if (loseVideo && loseVideo.elt){
     loseVideo.elt.classList.add('lose-video');
@@ -846,3 +846,4 @@ function validateEmail(email){
   const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return re.test(email);
 }
+
